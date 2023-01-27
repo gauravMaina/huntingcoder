@@ -1,7 +1,8 @@
 import React from 'react';
+import styled from '../styles/About.module.css'
 
 const About = () => {
-    return <div>This is my about component</div>;
+    return <div className={styled.about}>This is my about component</div>;
 };
 
 export default About;
