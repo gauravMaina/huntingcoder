@@ -290,15 +290,19 @@
   font-weight: bold;
 }
 
-.title {
-  padding-bottom: 3rem;
-}
-.blogs h2{
+.blogs h2 {
   padding-bottom: 12px;
 }
-.blogItem h3{
+.blogItem h3 {
   padding-bottom: 10px;
 }
-.blogItem p{
+.blogItem p {
   padding-bottom: 10px;
+}
+.myImg {
+  border-radius: 10px;
+}
+
+.imagewrap {
+  padding: 30px 0px;
 }
