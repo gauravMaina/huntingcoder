@@ -9,6 +9,5 @@ export default async function handler (req, res) {
     myFile = await fs.promises.readFile('blogdata/' + item, 'utf-8')
     allBlogs.push(JSON.parse(myFile))
   }
-  console.log(allBlogs)
   res.status(200).json(allBlogs)
 }
