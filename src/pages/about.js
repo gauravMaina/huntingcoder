@@ -9,7 +9,7 @@ const About = () => {
         <h2>Services Offered</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis. Saepe, blanditiis harum cum excepturi maiores atque mollitia quas itaque qui, exercitationem id quaerat magnam repellat quia fugiat hic iure sit vitae officiis eligendi.</p>
         <p>We offer the following services</p>
-        <ul>
+        <ul >
             <li>Service 1</li>
             <li>Service 1</li>
             <li>Service 1</li>
