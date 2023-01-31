@@ -16,8 +16,7 @@ const Blog = props => {
                 <h3 className={styles.blogItemh3}>{blogItems.title}</h3>
               </Link>
               <p className={styles.blogItemp}>
-                {' '}
-                {blogItems.content.substr(0, 140)}...
+                {blogItems.metadesc.substr(0, 140)}...
               </p>
             </div>
           )
