@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import styles from '../styles/Blog.module.css'
 import Link from 'next/link';
 import * as fs from 'fs';
 import InfiniteScroll from 'react-infinite-scroll-component';
-
-// Step 1: Collect all the files from blogdata directory
-// Step 2: Iterate through the and Display them
 
 const Blog = (props) => {
   const [blogs, setBlogs] = useState(props.allBlogs);
@@ -21,7 +18,7 @@ const Blog = (props) => {
   return <div className={styles.container}>
     <main className={styles.main}>
       <InfiniteScroll
-        dataLength={blogs.length} //This is important field to render the next data
+        dataLength={blogs.length}
         next={fetchData}
         hasMore={props.allCount !== blogs.length}
         loader={<h4>Loading...</h4>}
