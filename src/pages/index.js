@@ -4,7 +4,6 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
 
-  // console.log(styles)
   return (
     <div className={styles.container}>
       <Head>
@@ -13,19 +12,13 @@ export default function Home() {
         <meta name="keywords" content="nextjs, huntingcoder blog, hunting coder" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Script src='/sc.js' strategy="lazyOnload"></Script> */}
-
       <main className={styles.main}>
         <div className={styles.imagewrap}>
-          {/* <Image className={styles.myImg} src="/homeimg.jfif" width={237} height={158}/> */}
           <img className={styles.myImg} src="/homeimg.jpg" width={237} height={158} alt="hunting coder" />
         </div>
         <h1 className={styles.title}>
           <span className='dummy'>&lt;HuntingCoder/&gt;</span>
         </h1>
-
-
-        {/* <div className={`${styles1.con} ${styles2.con}`}> */}
         <div>
           <h2 className={styles.h2}>Latest Blogs</h2>
           <div>
@@ -45,9 +38,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-
       <footer className={styles.footer}>
-
       </footer>
     </div>
   )
