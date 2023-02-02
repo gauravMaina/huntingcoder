@@ -1,22 +1,24 @@
 .container {
-    margin: 45px auto;
-    max-width: 45vw;
+  margin: 45px auto;
+  max-width: 45vw;
 }
-
+.container h2 {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
 .center {
-    text-align: center;
+  text-align: center;
 }
 
-.container ul{
-    margin-left: 37px
-
+.container ul {
+  margin-left: 37px;
+  margin-top: 5px;
 }
-
 
 @media only screen and (max-width: 600px) {
-    .mainnav ul li {
-      margin: 0 6px;
-      list-style: none;
-      font-weight: bold;
-    }
+  .mainnav ul li {
+    margin: 0 6px;
+    list-style: none;
+    font-weight: bold;
   }
+}
